@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import PurchaseCard from "../components/purchases/PurchaseCard";
+import PurchaseCard from "../components/Purchases/PurchaseCard";
 import { axiosEcommerce, getConfig } from "../utils/configAxios";
 
 const Purchases = () => {
