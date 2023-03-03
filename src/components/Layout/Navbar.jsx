@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
-import './styles/navbar.css'
+import './styles/Navbar.css'
 const Navbar = () => {
   const {products} = useSelector(store => store.cart)
   const {token} = useSelector(store => store.userInfo)
